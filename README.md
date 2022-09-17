@@ -34,3 +34,18 @@ train set을 뽑을 때 10 class만 뽑아 학습시키면 가장 좋은 정확�
 검증 데이터셋의 숫자가 적기 때문에 가장 좋은 모델인지는 모르겠다.
 
 </details>
+
+<details>
+<summary>CNN을 활용한 이미지 분류</summary>
+
+
+## Problem 3 
+레이어를 만드는 건 어렵지 않았으나 입력 텐서 크기와 출력 텐서 크기를 맞추는 게 어려웠다.
+특히 Max Pooling 이후 크기가 어떻게 되는 건지 모르겠다.
+
+## Problem 7
+torch에 내장된 Pre-trained 된 ResNet50을 불러와 전이학습시켰다.
+epoch는 100 이상. mix-up을 사용했다.
+최종적인 결과는 94.04%였다. 학습된 파라미터는 Mymodel2_new.pt에 저장되어 있다.
+
+</details>
