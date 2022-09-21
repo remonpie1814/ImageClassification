@@ -49,3 +49,14 @@ epoch는 100 이상. mix-up을 사용했다.
 최종적인 결과는 94.04%였다. 학습된 파라미터는 Mymodel2_new.pt에 저장되어 있다.
 
 </details>
+
+<details>
+<summary>GAN을 이용한 얼굴 마스크 이미지 생성</summary>
+
+
+## Problem 1
+제시된 Generator과 Discriminator의 코드를 여러 번 읽고서 어떻게 동작하는지 이해하는 데에 많은 시간이 들었다.
+DCGAN의 예제로 나온 코드의 모델을 시험삼아 써봤다.
+아직 모델을 다 완성하진 못 했다. 더 조정해야 한다.
+
+</details>
